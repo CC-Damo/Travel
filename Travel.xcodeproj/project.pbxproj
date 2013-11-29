@@ -14,14 +14,18 @@
 		FAF2FD7A1846D9CD00310695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FD791846D9CD00310695 /* main.m */; };
 		FAF2FD7E1846D9CD00310695 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FD7D1846D9CD00310695 /* AppDelegate.m */; };
 		FAF2FD811846D9CD00310695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2FD7F1846D9CD00310695 /* Main.storyboard */; };
-		FAF2FD841846D9CD00310695 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FD831846D9CD00310695 /* FirstViewController.m */; };
-		FAF2FD871846D9CD00310695 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FD861846D9CD00310695 /* SecondViewController.m */; };
 		FAF2FD891846D9CE00310695 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF2FD881846D9CE00310695 /* Images.xcassets */; };
 		FAF2FD901846D9CE00310695 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF2FD8F1846D9CE00310695 /* XCTest.framework */; };
 		FAF2FD911846D9CE00310695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF2FD6D1846D9CD00310695 /* Foundation.framework */; };
 		FAF2FD921846D9CE00310695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF2FD711846D9CD00310695 /* UIKit.framework */; };
 		FAF2FD9A1846D9CE00310695 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF2FD981846D9CE00310695 /* InfoPlist.strings */; };
 		FAF2FD9C1846D9CE00310695 /* TravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FD9B1846D9CE00310695 /* TravelTests.m */; };
+		FAF2FDAC1846DC4B00310695 /* Step1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FDAB1846DC4B00310695 /* Step1VC.m */; };
+		FAF2FDAF1846DD0F00310695 /* Step1Data.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FDAE1846DD0F00310695 /* Step1Data.m */; };
+		FAF2FDB21846E3AD00310695 /* Step2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FDB11846E3AD00310695 /* Step2VC.m */; };
+		FAF2FDB51846EB3700310695 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FDB41846EB3700310695 /* CustomCell.m */; };
+		FAF2FDB81847943C00310695 /* Step2Data.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FDB71847943C00310695 /* Step2Data.m */; };
+		FAF2FDBB184799E800310695 /* Step3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FDBA184799E800310695 /* Step3VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +50,24 @@
 		FAF2FD7C1846D9CD00310695 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAF2FD7D1846D9CD00310695 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FAF2FD801846D9CD00310695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAF2FD821846D9CD00310695 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		FAF2FD831846D9CD00310695 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		FAF2FD851846D9CD00310695 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FAF2FD861846D9CD00310695 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FAF2FD881846D9CE00310695 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAF2FD8E1846D9CE00310695 /* TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF2FD8F1846D9CE00310695 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FAF2FD971846D9CE00310695 /* TravelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravelTests-Info.plist"; sourceTree = "<group>"; };
 		FAF2FD991846D9CE00310695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAF2FD9B1846D9CE00310695 /* TravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelTests.m; sourceTree = "<group>"; };
+		FAF2FDAA1846DC4B00310695 /* Step1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step1VC.h; sourceTree = "<group>"; };
+		FAF2FDAB1846DC4B00310695 /* Step1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step1VC.m; sourceTree = "<group>"; };
+		FAF2FDAD1846DD0F00310695 /* Step1Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step1Data.h; sourceTree = "<group>"; };
+		FAF2FDAE1846DD0F00310695 /* Step1Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step1Data.m; sourceTree = "<group>"; };
+		FAF2FDB01846E3AD00310695 /* Step2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step2VC.h; sourceTree = "<group>"; };
+		FAF2FDB11846E3AD00310695 /* Step2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step2VC.m; sourceTree = "<group>"; };
+		FAF2FDB31846EB3700310695 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		FAF2FDB41846EB3700310695 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		FAF2FDB61847943C00310695 /* Step2Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step2Data.h; sourceTree = "<group>"; };
+		FAF2FDB71847943C00310695 /* Step2Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step2Data.m; sourceTree = "<group>"; };
+		FAF2FDB9184799E800310695 /* Step3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step3VC.h; sourceTree = "<group>"; };
+		FAF2FDBA184799E800310695 /* Step3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step3VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +127,10 @@
 		FAF2FD731846D9CD00310695 /* Travel */ = {
 			isa = PBXGroup;
 			children = (
+				FAF2FDA51846DA2F00310695 /* Service Search */,
 				FAF2FD7C1846D9CD00310695 /* AppDelegate.h */,
 				FAF2FD7D1846D9CD00310695 /* AppDelegate.m */,
 				FAF2FD7F1846D9CD00310695 /* Main.storyboard */,
-				FAF2FD821846D9CD00310695 /* FirstViewController.h */,
-				FAF2FD831846D9CD00310695 /* FirstViewController.m */,
-				FAF2FD851846D9CD00310695 /* SecondViewController.h */,
-				FAF2FD861846D9CD00310695 /* SecondViewController.m */,
 				FAF2FD881846D9CE00310695 /* Images.xcassets */,
 				FAF2FD741846D9CD00310695 /* Supporting Files */,
 			);
@@ -155,6 +164,57 @@
 				FAF2FD981846D9CE00310695 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF2FDA51846DA2F00310695 /* Service Search */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2FDA91846DB8F00310695 /* Service Data */,
+				FAF2FDA61846DA3700310695 /* Step 1 */,
+				FAF2FDA71846DA3C00310695 /* Step 2 */,
+				FAF2FDA81846DA4200310695 /* Step 3 */,
+			);
+			name = "Service Search";
+			sourceTree = "<group>";
+		};
+		FAF2FDA61846DA3700310695 /* Step 1 */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2FDAA1846DC4B00310695 /* Step1VC.h */,
+				FAF2FDAB1846DC4B00310695 /* Step1VC.m */,
+			);
+			name = "Step 1";
+			sourceTree = "<group>";
+		};
+		FAF2FDA71846DA3C00310695 /* Step 2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2FDB01846E3AD00310695 /* Step2VC.h */,
+				FAF2FDB11846E3AD00310695 /* Step2VC.m */,
+				FAF2FDB31846EB3700310695 /* CustomCell.h */,
+				FAF2FDB41846EB3700310695 /* CustomCell.m */,
+			);
+			name = "Step 2";
+			sourceTree = "<group>";
+		};
+		FAF2FDA81846DA4200310695 /* Step 3 */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2FDB9184799E800310695 /* Step3VC.h */,
+				FAF2FDBA184799E800310695 /* Step3VC.m */,
+			);
+			name = "Step 3";
+			sourceTree = "<group>";
+		};
+		FAF2FDA91846DB8F00310695 /* Service Data */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2FDAD1846DD0F00310695 /* Step1Data.h */,
+				FAF2FDAE1846DD0F00310695 /* Step1Data.m */,
+				FAF2FDB61847943C00310695 /* Step2Data.h */,
+				FAF2FDB71847943C00310695 /* Step2Data.m */,
+			);
+			name = "Service Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,10 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF2FD871846D9CD00310695 /* SecondViewController.m in Sources */,
+				FAF2FDB81847943C00310695 /* Step2Data.m in Sources */,
+				FAF2FDB21846E3AD00310695 /* Step2VC.m in Sources */,
 				FAF2FD7E1846D9CD00310695 /* AppDelegate.m in Sources */,
-				FAF2FD841846D9CD00310695 /* FirstViewController.m in Sources */,
+				FAF2FDB51846EB3700310695 /* CustomCell.m in Sources */,
+				FAF2FDBB184799E800310695 /* Step3VC.m in Sources */,
+				FAF2FDAF1846DD0F00310695 /* Step1Data.m in Sources */,
 				FAF2FD7A1846D9CD00310695 /* main.m in Sources */,
+				FAF2FDAC1846DC4B00310695 /* Step1VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
