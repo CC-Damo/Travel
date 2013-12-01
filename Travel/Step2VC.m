@@ -134,11 +134,14 @@
     cell.numberLabel.text = [serviceNumber objectAtIndex:indexPath.row];
     cell.nameLabel.text = [serviceName objectAtIndex:indexPath.row];
     cell.providerLabel.text  = [serviceProvider objectAtIndex:indexPath.row];
-    
+
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     Step2Data *step2data = [Step2Data sharedManager];
     step2data.url = [serviceUrl objectAtIndex:indexPath.row];
-  //  NSLog(@"URL: %@", step2data.url);
-    return cell;
+    //  NSLog(@"URL: %@", step2data.url);
 }
 
 -(void)viewWillAppear:(BOOL)animated{
