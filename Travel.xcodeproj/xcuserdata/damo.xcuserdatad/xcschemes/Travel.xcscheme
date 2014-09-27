@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34D33C2219B7DB9100E98276"
+               BlueprintIdentifier = "FAF2FD691846D9CD00310695"
                BuildableName = "Travel.app"
                BlueprintName = "Travel"
                ReferencedContainer = "container:Travel.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34D33C4919B7DB9200E98276"
+               BlueprintIdentifier = "FAF2FD8D1846D9CE00310695"
                BuildableName = "TravelTests.xctest"
                BlueprintName = "TravelTests"
                ReferencedContainer = "container:Travel.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34D33C2219B7DB9100E98276"
+            BlueprintIdentifier = "FAF2FD691846D9CD00310695"
             BuildableName = "Travel.app"
             BlueprintName = "Travel"
             ReferencedContainer = "container:Travel.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34D33C2219B7DB9100E98276"
+            BlueprintIdentifier = "FAF2FD691846D9CD00310695"
             BuildableName = "Travel.app"
             BlueprintName = "Travel"
             ReferencedContainer = "container:Travel.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34D33C2219B7DB9100E98276"
+            BlueprintIdentifier = "FAF2FD691846D9CD00310695"
             BuildableName = "Travel.app"
             BlueprintName = "Travel"
             ReferencedContainer = "container:Travel.xcodeproj">

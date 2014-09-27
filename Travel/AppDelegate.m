@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  Travel
 //
-//  Created by Damien Delay on 04/09/2014.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Created by Damo-Dev on 28/11/2013.
+//  Copyright (c) 2013 DDelay. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -12,8 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     // Override point for customization after application launch.
     return YES;
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
