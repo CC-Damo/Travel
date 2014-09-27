@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EF9A995E-009A-4511-83E4-419361DF7C51</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Travel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F00EAB6A-9AA6-409A-8A24-7F66A912520E</key>
+		<string>damo1995@github.com:damo1995/Travel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Travel.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F00EAB6A-9AA6-409A-8A24-7F66A912520E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>damo1995@github.com:damo1995/Travel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F00EAB6A-9AA6-409A-8A24-7F66A912520E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F00EAB6A-9AA6-409A-8A24-7F66A912520E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Travel</string>
+		</dict>
+	</array>
+</dict>
+</plist>
