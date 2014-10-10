@@ -3,11 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "Call-TravelLine.png"
+      "filename" : "Call.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "Call@2x.png"
     },
     {
       "idiom" : "universal",

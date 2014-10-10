@@ -30,19 +30,16 @@
 
 - (void)viewDidLoad
 {
+    //[self setNavigationTransparent];
+         [[self view]setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
     jsonDictionary = [[NSDictionary alloc] init];
     serviceName = [[NSArray alloc]  init];
     serviceNumber = [[NSArray alloc] init];
     serviceProvider = [[NSArray alloc]init];
     serviceUrl = [[NSArray alloc] init];
-    
+        self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(64, 0, 0, 0);
     Step1Data *sharedData = [Step1Data sharedManager];
     url = [NSURL URLWithString:[NSString stringWithFormat:@"http://ddelay.co.uk/bus/find_services.php?service=%@", [sharedData serviceNumber]]];
-    if([sharedData serviceNumber].length == 0){
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error!" message:@"Invalid Service Number!" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
-        [alert show];
-        return;
-    }
     NSLog(@"=== Step 2 Loaded ===");
     self.title = [NSString stringWithFormat:@"Search: %@", sharedData.serviceNumber];
     [super viewDidLoad];
@@ -153,8 +150,15 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
+
     [super viewWillAppear:animated];
     [self.tableView reloadData];
+}
+
+-(void)setNavigationTransparent{
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.shadowImage = [UIImage new] ;
+    self.navigationController.navigationBar.translucent = YES;
 }
 
 @end

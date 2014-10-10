@@ -27,10 +27,20 @@
 }
 
 - (void)viewDidLoad
-{
+{    [[self view]setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.searchField.delegate = self;
+    [self setNavigationTransparent];
+    
+}
+
+-(void)setNavigationTransparent{
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.shadowImage = [UIImage new] ;
+    self.navigationController.navigationBar.translucent = YES;
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,13 +60,26 @@
 
 - (IBAction)submitBtnp:(id)sender {
     StopData *st = [StopData sharedManager];
-    if(searchField.text.length != 8){
+/*    if(searchField.text.length != 8){
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error!" message:@"Invalid Stop Number!" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
         [alert show];
-    }else{
+        
+    }else{*/
     st.stopNo = searchField.text;
     NSLog(@"%@", st.stopNo);
+ //   }
+}
+
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
+    if([identifier isEqualToString:@"stopPush1"]){
+        if(searchField.text.length !=8){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error!" message:@"Invalid Stop Number!" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+            [alert show];
+            return NO;
+        }
+        return YES;
     }
+    return YES;
 }
 
 /*

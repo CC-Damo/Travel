@@ -10,29 +10,29 @@
 	<string>Travel</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F00EAB6A-9AA6-409A-8A24-7F66A912520E</key>
-		<string>damo1995@github.com:damo1995/Travel.git</string>
+		<key>6EA0C317B87CF2136F28FFB920DB820C4C415554</key>
+		<string>github.com:damo1995/Travel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Travel.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F00EAB6A-9AA6-409A-8A24-7F66A912520E</key>
+		<key>6EA0C317B87CF2136F28FFB920DB820C4C415554</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>damo1995@github.com:damo1995/Travel.git</string>
+	<string>github.com:damo1995/Travel.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F00EAB6A-9AA6-409A-8A24-7F66A912520E</string>
+	<string>6EA0C317B87CF2136F28FFB920DB820C4C415554</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F00EAB6A-9AA6-409A-8A24-7F66A912520E</string>
+			<string>6EA0C317B87CF2136F28FFB920DB820C4C415554</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Travel</string>
 		</dict>

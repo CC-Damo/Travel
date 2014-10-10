@@ -10,5 +10,9 @@
 
 @interface TestingView : UIViewController
 - (IBAction)travelline:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *callButton;
+@property (strong, nonatomic) IBOutlet UILabel *callLabel;
+- (IBAction)Facebook:(id)sender;
+- (IBAction)Twitter:(id)sender;
 
 @end
