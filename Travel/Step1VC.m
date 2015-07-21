@@ -54,6 +54,11 @@
     return NO;
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [self setNavigationTransparent];
+
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

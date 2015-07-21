@@ -30,14 +30,15 @@
 
 - (void)viewDidLoad
 {
-    //[self setNavigationTransparent];
-         [[self view]setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Background"]]];
+    [self setNavigationTransparent];
     jsonDictionary = [[NSDictionary alloc] init];
     serviceName = [[NSArray alloc]  init];
     serviceNumber = [[NSArray alloc] init];
     serviceProvider = [[NSArray alloc]init];
     serviceUrl = [[NSArray alloc] init];
-        self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(64, 0, 0, 0);
+    
+    
+    
     Step1Data *sharedData = [Step1Data sharedManager];
     url = [NSURL URLWithString:[NSString stringWithFormat:@"http://ddelay.co.uk/bus/find_services.php?service=%@", [sharedData serviceNumber]]];
     NSLog(@"=== Step 2 Loaded ===");
@@ -156,9 +157,11 @@
 }
 
 -(void)setNavigationTransparent{
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-    self.navigationController.navigationBar.shadowImage = [UIImage new] ;
-    self.navigationController.navigationBar.translucent = YES;
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"Background-Nav"] forBarMetrics:UIBarMetricsDefault];
+   // [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+   // self.navigationController.navigationBar.shadowImage = [UIImage new] ;
+   self.navigationController.navigationBar.translucent = NO;
 }
 
 @end

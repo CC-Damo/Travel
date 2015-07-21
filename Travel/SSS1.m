@@ -35,6 +35,10 @@
     
 }
 
+-(void)viewWillAppear:(BOOL)animated    {
+    [self setNavigationTransparent];
+}
+
 -(void)setNavigationTransparent{
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new] ;

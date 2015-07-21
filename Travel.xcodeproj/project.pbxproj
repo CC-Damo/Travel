@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34103A7819E961B4002AF06A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34103A7719E961B4002AF06A /* AboutViewController.m */; };
 		34272AFD19B9143A007A9CED /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34272AFA19B9143A007A9CED /* ProgressHUD.bundle */; };
 		34272AFE19B9143A007A9CED /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 34272AFC19B9143A007A9CED /* ProgressHUD.m */; };
 		34272B0219B92FE1007A9CED /* SSS1.m in Sources */ = {isa = PBXBuildFile; fileRef = 34272B0119B92FE1007A9CED /* SSS1.m */; };
@@ -17,6 +18,7 @@
 		3478C36619BD3A550061F56B /* Step4.m in Sources */ = {isa = PBXBuildFile; fileRef = 3478C36519BD3A550061F56B /* Step4.m */; };
 		34D5956219BBB6A700F53523 /* SSS2.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D5956119BBB6A700F53523 /* SSS2.m */; };
 		34D5956519BBDDFD00F53523 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D5956419BBDDFD00F53523 /* CustomButton.m */; };
+		34E987A51A5C44D2007B8036 /* aboutApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E987A41A5C44D2007B8036 /* aboutApp.m */; };
 		FAF2FD6E1846D9CD00310695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF2FD6D1846D9CD00310695 /* Foundation.framework */; };
 		FAF2FD701846D9CD00310695 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF2FD6F1846D9CD00310695 /* CoreGraphics.framework */; };
 		FAF2FD721846D9CD00310695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF2FD711846D9CD00310695 /* UIKit.framework */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34103A7619E961B4002AF06A /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		34103A7719E961B4002AF06A /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		34272AFA19B9143A007A9CED /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		34272AFB19B9143A007A9CED /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		34272AFC19B9143A007A9CED /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		34D5956119BBB6A700F53523 /* SSS2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSS2.m; sourceTree = "<group>"; };
 		34D5956319BBDDFD00F53523 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
 		34D5956419BBDDFD00F53523 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		34E987A31A5C44D2007B8036 /* aboutApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutApp.h; sourceTree = "<group>"; };
+		34E987A41A5C44D2007B8036 /* aboutApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutApp.m; sourceTree = "<group>"; };
 		FAF2FD6A1846D9CD00310695 /* Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF2FD6D1846D9CD00310695 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAF2FD6F1846D9CD00310695 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -190,6 +196,15 @@
 			name = CustomCell;
 			sourceTree = "<group>";
 		};
+		34E987A21A5C44A4007B8036 /* About App */ = {
+			isa = PBXGroup;
+			children = (
+				34E987A31A5C44D2007B8036 /* aboutApp.h */,
+				34E987A41A5C44D2007B8036 /* aboutApp.m */,
+			);
+			name = "About App";
+			sourceTree = "<group>";
+		};
 		FAF2FD611846D9CD00310695 = {
 			isa = PBXGroup;
 			children = (
@@ -224,17 +239,20 @@
 		FAF2FD731846D9CD00310695 /* Travel */ = {
 			isa = PBXGroup;
 			children = (
+				34E987A21A5C44A4007B8036 /* About App */,
 				34272AFF19B921A3007A9CED /* Stop Search */,
 				FAF2FDA51846DA2F00310695 /* Service Search */,
 				FAF2FD7C1846D9CD00310695 /* AppDelegate.h */,
 				FAF2FD7D1846D9CD00310695 /* AppDelegate.m */,
 				FAF2FD7F1846D9CD00310695 /* Main.storyboard */,
 				FAF2FD881846D9CE00310695 /* Images.xcassets */,
-				FAF2FD741846D9CD00310695 /* Supporting Files */,
 				34D5956319BBDDFD00F53523 /* CustomButton.h */,
+				FAF2FD741846D9CD00310695 /* Supporting Files */,
 				34D5956419BBDDFD00F53523 /* CustomButton.m */,
 				3438BF4919D0C9700036AD4C /* TestingView.h */,
 				3438BF4A19D0C9700036AD4C /* TestingView.m */,
+				34103A7619E961B4002AF06A /* AboutViewController.h */,
+				34103A7719E961B4002AF06A /* AboutViewController.m */,
 			);
 			path = Travel;
 			sourceTree = "<group>";
@@ -423,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34103A7819E961B4002AF06A /* AboutViewController.m in Sources */,
 				34D5956519BBDDFD00F53523 /* CustomButton.m in Sources */,
 				34D5956219BBB6A700F53523 /* SSS2.m in Sources */,
 				3478C36619BD3A550061F56B /* Step4.m in Sources */,
@@ -436,6 +455,7 @@
 				34272B0219B92FE1007A9CED /* SSS1.m in Sources */,
 				345F137C19B8DC8C00AAE0C9 /* Step3Data.m in Sources */,
 				FAF2FDAF1846DD0F00310695 /* Step1Data.m in Sources */,
+				34E987A51A5C44D2007B8036 /* aboutApp.m in Sources */,
 				343F479419BA5AD4004EC0EE /* CustomCellService.m in Sources */,
 				FAF2FD7A1846D9CD00310695 /* main.m in Sources */,
 				FAF2FDAC1846DC4B00310695 /* Step1VC.m in Sources */,
@@ -572,7 +592,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -590,7 +610,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -30,6 +30,7 @@
 
 - (void)viewDidLoad
 {
+    [self setNavigationTransparent];
     UIView *refreshView = [[UIView alloc ]initWithFrame:CGRectMake(0, 55, 0, 0)];
     [self.tableView insertSubview:refreshView atIndex:0];
     
@@ -65,6 +66,15 @@
     [refreshControl endRefreshing];
     
 }
+
+-(void)setNavigationTransparent{
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"Background-Nav"] forBarMetrics:UIBarMetricsDefault];
+    // [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    // self.navigationController.navigationBar.shadowImage = [UIImage new] ;
+    self.navigationController.navigationBar.translucent = NO;
+}
+
 //===================== Parse Data =======================
            // Parse the JSON data from the given URL
            - (void) parseJSONWithURL:(NSURL *) jsonURL

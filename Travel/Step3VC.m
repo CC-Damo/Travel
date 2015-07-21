@@ -22,7 +22,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        // Custom initialization	
     }
     return self;
 }
@@ -32,6 +32,11 @@
     Step2Data *step2data = [Step2Data sharedManager];
     stopNames = [[NSArray alloc] init];
     stopNumbers = [[NSArray alloc] init];
+
+    UILongPressGestureRecognizer *lpgr = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(onLongPress:)];
+    lpgr.minimumPressDuration = 0.5;
+
+    [self.tableView addGestureRecognizer:lpgr];
     
     NSString *passedURL = [step2data.url stringByReplacingOccurrencesOfString:@"&" withString:@"?"];
     NSURL *finalURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://ddelay.co.uk/bus/find_services2.php?service=%@", passedURL]];
@@ -101,6 +106,48 @@
         }
     });
 }
+
+-(void)onLongPress:(UILongPressGestureRecognizer *)pGesture
+{
+    if(pGesture.state == UIGestureRecognizerStateRecognized){
+        
+    }if(pGesture.state == UIGestureRecognizerStateEnded){
+        UITableView* tv = (UITableView*)self.tableView;
+        CGPoint touchPoint = [pGesture locationInView:self.view];
+        NSIndexPath* row = [tv indexPathForRowAtPoint:touchPoint];
+        if(row != nil){
+            UIAlertController * view=   [UIAlertController
+                                         alertControllerWithTitle:@"My Title"
+                                         message:@"Select you Choice"
+                                         preferredStyle:UIAlertControllerStyleActionSheet];
+            
+            UIAlertAction* ok = [UIAlertAction
+                                 actionWithTitle:@"OK"
+                                 style:UIAlertActionStyleDefault
+                                 handler:^(UIAlertAction * action)
+                                 {
+                                     //Do some thing here
+                                     [view dismissViewControllerAnimated:YES completion:nil];
+                                     
+                                 }];
+            UIAlertAction* cancel = [UIAlertAction
+                                     actionWithTitle:@"Cancel"
+                                     style:UIAlertActionStyleDefault
+                                     handler:^(UIAlertAction * action)
+                                     {
+                                         [view dismissViewControllerAnimated:YES completion:nil];
+                                         
+                                     }];
+            
+            
+            [view addAction:ok];
+            [view addAction:cancel];
+            [self presentViewController:view animated:YES completion:nil];
+        }
+    }
+}
+
+
 
 
 - (void)didReceiveMemoryWarning

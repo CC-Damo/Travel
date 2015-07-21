@@ -29,6 +29,12 @@
         callLabel.hidden = true;
         
     }
+    self.navigationController.navigationBar.hidden = YES;
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    self.navigationController.navigationBar.hidden = YES;
+    
 }
 
 - (void)didReceiveMemoryWarning {
